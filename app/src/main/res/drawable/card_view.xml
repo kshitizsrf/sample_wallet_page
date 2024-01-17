@@ -1,0 +1,9 @@
+<!-- res/drawable/rounded_top_corners.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="-30dp"> <!-- Adjust the value to control the curve -->
+        <shape android:shape="rectangle">
+            <corners android:radius="30dp" /> <!-- Adjust the radius as needed -->
+            <solid android:color="@color/white" /> <!-- Set your desired color -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Putatoe Wallet</string>
+    <string name="head">Putatoe Wallet</string>
+    <string name="balance">₹ 0.0</string>
+    <string name="balance_head">Available Balance</string>
+    <string name="reward_points">Reward Points</string>
+    <string name="_500">500</string>
+    <string name="transfer_money">Transfer Money</string>
+    <string name="_100_reward_points_1_putatoe_credit">100 reward points = 1 putatoe credit</string>
+    <string name="_1_putatoe_credit_1_rupee">1 putatoe credit = 1 rupee</string>
+    <string name="reward_points_message">Can be redeemed to your bank account on amount above Rs. 10,000</string>
+    <string name="add_money">Add Money</string>
+    <string name="redeem_as_credit">Redeem as Credit</string>
+    <string name="send_money_to_bank">Send money to Bank</string>
+    <string name="transactions">Transactions</string>
+    <string name="empty_transaction">NO PAST TRANSACTIONS</string>
+    <string name="username_hint">Enter username or mobile number</string>
+    <string name="amount_hint">Enter Amount</string>
+    <string name="submit">Submit</string>
+    <string name="username_head">Username or Mobile Number</string>
+    <string name="amount_head">Amount</string>
+    <string name="close_this_view">Close this View</string>
+    <string name="add">ADD</string>
+    <string name="_0">₹ 0</string>
+    <string name="add_money_to_wallet">Add Money to Wallet</string>
+    <string name="enter_aadhaar_card_number">Enter Aadhaar Card Number</string>
+    <string name="aadhaar_number_hint">Enter your Aadhaar Card Number</string>
+    <string name="cancel">CANCEL</string>
+    <string name="submit_">SUBMIT</string>
+    <string name="no_bank_accounts">No Bank Accounts!</string>
+    <string name="add_account">Please add a Bank Account</string>
+    <string name="add_a_bank_account">ADD A BANK ACCOUNT</string>
+</resources>
