@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button transfer;
+    Button transfer, back;
     ImageView addMoney, redeemCredit, sendMoneyToBank;
 
     @Override
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        back = findViewById(R.id.back);
         addMoney = findViewById(R.id.add_money);
         redeemCredit = findViewById(R.id.redeem_credit);
         sendMoneyToBank = findViewById(R.id.send_to_bank);
@@ -42,5 +43,7 @@ public class MainActivity extends AppCompatActivity {
             AddBankDialog dialog = new AddBankDialog();
             dialog.show(getSupportFragmentManager(), "AddBankDialog");
         });
+
+        back.setOnClickListener(v -> finish());
     }
 }
